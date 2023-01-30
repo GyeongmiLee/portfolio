@@ -1,12 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="./index.js"></script>
+    <link rel="icon" href="./img/logo.jpg"> 
 </head>
-<script>location.replace("https://project-dearme-gyeongmi.web.app/")</script>
+
 <body>
+    <div id="wrap">
+        <div class="video_box">
+        <video autoPlay="autoPlay" muted="muted">
+            <source src="./img/Another Road.mp4" type="video/mp4">
+        </video>
+        </div>
+        <div class="logo_box">
+            <img src="./img/logo.jpg" alt="" class="main_logo">
+            <div class="info"> [각 탭을 클릭하면 정보가 나옵니다] </div>
+            <div class="intro"></div>
+        </div>
+        <div id="body_content">
+            <div class="icon_box">
+                <a href="https://open.kakao.com/o/s05cN50e" target="_blank">
+                    <img src="./img/kakao_icon.png" alt="">
+                    <div class="txt">Kakao 오픈채팅</div>
+
+                </a>
+                <a target="_blank" href="mailto:gyeongmilee23@gmail.com">
+                    <img src="./img/email_icon.png" alt="">
+                    <div class="txt_fir">gyeongmilee23@gmail.com</div>
+                </a>
+                <a href="https://github.com/GyeongmiLee?tab=repositories" target="_blank">
+                    <img src="./img/github_icon.png" alt="">
+                    <div class="txt">Github</div>
+                </a>
+            </div>
+            <div class="contents_box">
+                <div class="aboutme">
+                    <div class="wrapper" id="wrapper_1">ABOUT ME!</div>
+                    <div class="line_right_top"></div>
+                </div>
+                <div class="skills">
+                    <div class="wrapper" id="wrapper_2">SKILLS</div>
+                    <div class="line_left_top"></div>
+                </div>
+                <div class="projects">
+                    <div class="wrapper" id="wrapper_3">PROJECTS</div>
+                    <div class="line_left_bot"></div>
+                </div>
+                <div class="study">
+                    <div class="wrapper" id="wrapper_4">STUDY</div>
+                    <div class="line_right_bot"></div>
+                </div>
+            </div>
+            <div class="modal_box">
+                <!-- aboutme -->
+                <div class="modal" id="modal_1">
+                    <div class="close">x</div>
+                    <div class="about_wrapper">
+                        <div class="intro_box">
+                            <img src="./img/emozi_sticker.png" alt="emozi" class="emozi">
+                            <div class="i_box">
+                                " 기록하는 것을 좋아하고, 알아내는 것을 즐깁니다."
+                                <br />
+                                <br />
+                                " 수업 외의 시간에 자바스크립트, 알고리즘, 리액트 스터디를 하며 성장하고 있습니다."
+                            </div>
+                        </div>
+                        <div class="myinfo_box">
+                            <div><b>이름</b>: 이경미 </div>
+                            <div><b>나이</b>: 97.10.23 </div>
+                            <div><b>주소</b>: 서울시 영등포구 </div>
+                        </div>
+                        <div class="history_box"> 
+                            <div class="history_title">History</div>
+                            ▸ 2013.03 ~ 2016.02 전주유일여자고등학교
+                            <br />
+                            ▸ 2016.06 ~ 2022.02 전주대학교(상담심리학과)
+                            <br />
+                            ▸ 2019.01 ~ 2021.02 호주워킹홀리데이 & 유학
+                            <br />
+                            ▸ 2020.04 ~ 2020.09 Navitas어학원 Academic class 수료
+                            <br />
+                            ▸ 2021.03 ~ 2022.01 EIE 어학원 초,중등 영어 강사
+                            <br />
+                            ▸ 2022.05 ~ 2023.01 KH정보교육원 - 웹콘텐츠 개발자 양성과정
+                        </div>
+                    </div>
+                </div>
+                <!-- skills -->
+                <div class="modal" id="modal_2">
+                    <div class="close">x</div>
+                    <div class="skills_wrapper">
+                        <div class="front skills_item">
+                            <div class="title">FRONTEND</div>
+                            <img src="./images/stack/html.svg" alt="html">
+                            <img src="./images/stack/css.svg" alt="css">
+                            <img src="./images/stack/javascript.svg" alt="js">
+                            <img src="./images/stack/jquery.png" alt="jquery">
+                            <img src="./images/stack/react.svg" alt="react">
+                            <img src="./images/stack/bootstrap.png" alt="bootstrap">
+                            <img src="./images/stack/mysql.png" alt="mysql">
+                            <img src="./images/stack/php.png" alt="php">
+                        </div>
+                        <div class="version skills_item">
+                            <div class="title">VERSION CONTROL</div>
+                            <img src="./images/stack/git.png" alt="git">
+                            <img src="./images/stack/github.png" alt="github">
+                            <img src="./images/stack/gitkraken.png" alt="gitkraken">
+                            <img src="./images/stack/gitdesktop_icon.png" alt="gitdesktop">
+                            
+                        </div>
+                        <div class="deployment skills_item">
+                            <div class="title">DEPLOYMENT</div>
+                            <img src="./images/stack/firebase.png" alt="firebase">
+                        </div>
+                        <div class="more skills_item">
+                            <div class="title">MORE</div>
+                            <img src="./images/stack/notion.svg" alt="notion">
+                            <img src="./images/stack/ppt.png" alt="ppt">
+                        </div>
+                    </div>
+                </div>
+                <!-- projects -->
+                <div class="modal" id="modal_3">
+                    <div class="close">x</div>
+                    <div class="pro_wrapper">
+                        <div class="pro_title">PROJECTS</div>
+                        <div class="arton_box">
+                            <div class="title">ARToN</div>
+                            <img src="./img/arton_cate.jpg" alt="arton_사진" class="main">
+                            <div class="contents">
+                                ▸ <b>소개글</b> :  직관적으로 공연 정보를 확인할 수 있고, 구매가 편리한 공연 티켓 판매 사이트 기획부터 구현까지 완성했습니다.
+                                 <br />
+                                ▸ <b>기간</b> : 2022년 11월 29일 ~ 2022년 12월 8일 ( 10일 소요 )
+                                <br />
+                                ▸ <b>담당역할 및 기여도</b> : 팀장, 프론트엔드 /  20% (5명 팀 프로젝트)
+                                <br />
+                                <div class="notion_box">
+                                ▸ <b>자세한 기획 및 회의록</b> :
+                                <a href="https://harmless-patio-fe8.notion.site/ARToN-6b34bf3422d541c5aaa228600b7bb4aa" target="_blank">
+                                <img src="./images/stack/notion.svg" alt="notion" class="notion">
+                                </a>
+                                </div>
+                                ▸ <b>담당 페이지</b> : 카테고리, 로그인/회원가입, 비밀번호 변경페이지
+                                <br />
+                                ▸ <b>설명</b> : 
+                                <br />
+                                ✏️기획단계에서 팀의 일정관리 및 기록을 위해 노션 페이지를 직접 제작하였습니다.
+                                <br />
+                                ✏️ HTML, CSS, JAVASCRIPT, JQUERY로 두가지 버전의 슬라이드를 구현했고, 정규식을 사용해 로그인/ 회원가입의 조건을 구현했습니다.
+                                <br />
+                                ✏️ 참고한 기존 사이트(yes24 ticket)와는 다르게 반응형을 구현했습니다.
+                                <br />
+                                <div class="btn_box">
+                                    <div><a href="https://gyeongmilee.github.io/ARTON_Gyenogmi/" target="_blank">구경하기</a></div>
+                                    <div><a href="https://github.com/GyeongmiLee/ARTON_Gyenogmi.git" target="_blank">코드보기(깃허브)</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dearme_box">
+                            <div class="title">Dear me,</div>
+                            <img src="./img/dearme_main.png" alt="dearme_사진" class="main">
+                            <div class="contents">
+                                ▸ <b>소개글</b> :  직관적으로 공연 정보를 확인할 수 있고, 구매가 편리한 공연 티켓 판매 사이트 기획부터 구현까지 완성했습니다.
+                                 <br />
+                                ▸ <b>기간</b> : 2023년 1월 16일 ~ 2023년 1월 27일 ( 12일 소요)
+                                <br />
+                                ▸ <b>담당역할 및 기여도</b> : 100% (개인 프로젝트)
+                                <br />
+                                <div class="notion_box">
+                                ▸ <b>자세한 기획 및 고찰</b> :
+                                <a href="https://harmless-patio-fe8.notion.site/Dear-me-33fbc63ed718428d95881151816653b3" target="_blank">
+                                <img src="./images/stack/notion.svg" alt="notion" class="notion">
+                                </a>
+                                </div>
+                                ▸ <b>설명</b> :
+                                <br />
+                                ✏️ 메인 페이지에서 작은 핸드폰 화면으로 힘든 하루를 보냈다면 그에 맞는 힐링 컨텐츠를 제공해 사용자가 관심을 끌수 있도록 하였습니다. 
+                                <br />
+                                ✏️ 센터페이지에서는 공공데이터와 카카오맵api를 이용해서 사용자에게 근처 상담센터에 대한 정보를 제공하였습니다. 
+                                <br />
+                                ✏️ 일기페이지에서는 배경음악을 들으며 일기를 쓰고, 이미지를 넣는 기능을 추가하였고, 수정 및 삭제가 가능하게 하였습니다.
+                                <br />
+                                ✏️ 반응형으로 구성하여 여러 화면에서도 보기 편리하게 구성하였고, 파이어베이스를 이용해 배포하였습니다.
+                                <br />
+                                <div class="btn_box">
+                                    <div><a href="https://project-dearme-gyeongmi.web.app/" target="_blank">구경하기</a></div>
+                                    <div><a href="https://github.com/GyeongmiLee/derame.git" target="_blank">코드보기(깃허브)</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- study -->
+                <div class="modal" id="modal_4">
+                    <div class="close">x</div>
+                    <div class="study_wrapper">
+                        <div class="title">이렇게 노력합니다 📖 </div>
+                        <div class="study_item">
+                            <div class="item_title">✏️ 자바스크립트 딥다이브 읽고 정리하며 이해한 내용 토론하기</div>
+                            <div class="item_sec">
+                                <a target="_blank"
+                                    href="https://velog.io/@gyeongmi_lee/js-%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C-9.-%ED%83%80%EC%9E%85-%EB%B3%80%ED%99%98%EA%B3%BC-%EB%8B%A8%EC%B6%95-%ED%8F%89%EA%B0%80-%EC%A0%95%EB%A6%AC">
+                                    <div class="study_items">
+                                        <div class="study_img">
+                                            <img src="./img/deep_dive.png" alt="deep_dive">
+                                        </div>
+                                        <div class="study_info">
+                                            <strong class="study_inf_title">[JS 딥다이브] 9장. 타입변환과 단축평가 정리</strong>
+                                            <p class="study_info_date">2022.10.31</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a target="_blank"
+                                href="https://velog.io/@gyeongmi_lee/js-%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C-12.-%ED%95%A8%EC%88%98-%EC%A0%95%EB%A6%AC">
+                                <div class="study_items">
+                                    <div class="study_img">
+                                        <img src="./img/deep_dive.png" alt="deep_dive">
+                                    </div>
+                                    <div class="study_info">
+                                        <strong class="study_inf_title">[JS 딥다이브] 12장. 함수 정리</strong>
+                                        <p class="study_info_date">2022.11.04</p>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="study_item">
+                            <div class="item_title">✏️ 리액트의 기초부터 이해를 위한 스터디 </div>
+                            <div class="item_sec">
+                                <a target="_blank"
+                                    href="https://velog.io/@gyeongmi_lee/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%8A%A4%ED%84%B0%EB%94%94">
+                                    <div class="study_items">
+                                        <div class="study_img">
+                                            <img src="./img/react_study.jpg" alt="react_study">
+                                        </div>
+                                        <div class="study_info">
+                                            <strong class="study_inf_title">[리액트 스터디] 리액트는 어떻게 동작하는가? 리액트의 장점은?</strong>
+                                            <p class="study_info_date">2023.01.24</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a target="_blank"
+                                href="https://velog.io/@gyeongmi_lee/Web-Storage%EC%9D%98-%EC%9D%B4%ED%95%B4">
+                                <div class="study_items">
+                                    <div class="study_img">
+                                        <img src="./img/react_study2.png" alt="react_study">
+                                    </div>
+                                    <div class="study_info">
+                                        <strong class="study_inf_title">[리액트 스터디] Web Storage의 이해</strong>
+                                        <p class="study_info_date">2023.01.28</p>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="study_item">
+                            <div class="item_title">✏️ 자바스크립트 알고리즘 스터디 </div>
+                            <div class="item_sec">
+                                <a target="_blank"
+                                    href="https://boom-leather-3ad.notion.site/c6cf0742344e431e8d980ea7b3e63664?v=c9d4b07992a2409cac8b8b9ad28d4465">
+                                    <div class="study_items">
+                                        <div class="study_img">
+                                            <img src="./img/Algorithm.png" alt="react_study">
+                                        </div>
+                                        <div class="study_info">
+                                            <strong class="study_inf_title">[6회차] 자바스크립트 알고리즘 </strong>
+                                            <p class="study_info_date">2023.01.03</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a target="_blank"
+                                href="https://boom-leather-3ad.notion.site/c6cf0742344e431e8d980ea7b3e63664?v=c9d4b07992a2409cac8b8b9ad28d4465">
+                                <div class="study_items">
+                                    <div class="study_img">
+                                        <img src="./img/Algorithm.png" alt="react_study">
+                                    </div>
+                                    <div class="study_info">
+                                        <strong class="study_inf_title">[7회차] 자바스크립트 알고리즘</strong>
+                                        <p class="study_info_date">2023.01.05</p>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <div class="item_title">✏️ 더 많은 포스팅 보러가기</div>
+                            <a href="https://velog.io/@gyeongmi_lee" target="_blank">
+                                <img src="./images/stack/velog.png" alt="velog">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img/gyeongmi_two.png" alt="" class="main_img">
+    </div>
 </body>
+
 </html>
