@@ -17,7 +17,7 @@ https://gyeongmilee.github.io/portfolio/
 ## 이력서 다운받기
 
 <p align="justify">
-<a href="./입사지원서_이경미(최종).pdf" download="이경미_이력서"></a>
+<a href="./입사지원서_이경미(최종).pdf" download="이경미_이력서">눌러보세요!</a>
 </p>
 
 <br>
