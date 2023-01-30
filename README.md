@@ -1,50 +1,32 @@
-# 프로젝트 이름
+# Portfolio
 
 <p align="center">
   <br>
-  <img src="./images/common/logo-sample.jpeg">
+  <img src="./img/portfolio_main.jpg">
   <br>
 </p>
 
-목차
-
-## 프로젝트 소개
+## 포트폴리오 URL
 
 <p align="justify">
-프로젝트 개요/동기
+https://gyeongmilee.github.io/portfolio/
 </p>
 
-<p align="center">
-GIF Images
+<br>
+
+## 이력서 다운받기
+
+<p align="justify">
+<a href="./입사지원서_이경미(최종).pdf" download="이경미_이력서"></a>
 </p>
 
 <br>
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |
-| :--------: | :--------: | :------: | :-----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] |
-
-<br>
-
-## 구현 기능
-
-### 기능 1
-
-### 기능 2
-
-### 기능 3
-
-### 기능 4
-
-<br>
-
-## 배운 점 & 아쉬운 점
-
-<p align="justify">
-
-</p>
+| JavaScript/JQuery |  HTML   |  CSS   |
+| :---------------: | :-----: | :----: |
+|       ![js]       | ![html] | ![css] |
 
 <br>
 
@@ -55,6 +37,5 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 <!-- Stack Icon Refernces -->
 
 [js]: /images/stack/javascript.svg
-[ts]: /images/stack/typescript.svg
-[react]: /images/stack/react.svg
-[node]: /images/stack/node.svg
+[html]: ./images/stack/html.svg
+[css]: ./images/stack/css.svg
