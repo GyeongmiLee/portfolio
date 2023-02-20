@@ -206,7 +206,7 @@ video{
     top: 28%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255,255,255, 90%);
+    background-color: rgba(255,255,255, 100%);
     border-radius: 25px;
     z-index: 999;
     padding: 40px;
@@ -347,7 +347,7 @@ video{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 25px;
-    margin: 20px 0;
+    margin: 60px 0;
 }
 /* skills - modal_2 */
 #modal_2{
@@ -396,6 +396,7 @@ video{
 .item_sec{
     display: flex;
     justify-content: space-evenly;
+    gap: 40px;
 }
 .item_title{
     text-align: center;
@@ -435,13 +436,16 @@ video{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.btn img{
+/* 더 많은 포스팅 보러가기 */
+/* .btn img{
     width: 50px;
     border-radius: 15px;
     display: block;
     margin: 0px auto;
-    /* text-align: center; */
     margin-bottom: 30px;
     animation: move 1s infinite;
-
+} */
+.btn .study_items{
+    /* width: auto; */
+    margin: 0 auto;
 }

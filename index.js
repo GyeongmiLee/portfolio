@@ -9,31 +9,27 @@ $(document).ready(function () {
     for (let i = 0; i < introduce.length; i++) {
       setTimeout(() => {
         $(".intro").append(introduce[i]);
-      }, i * 100);
+      }, i * 150);
     }
   }, 2500);
 
   //탭 클릭시 modal 뜨게하는 로직
   for (let i = 1; i <= 4; i++) {
     $(`#wrapper_${i}`).on("click", function () {
-      //   alert("d");
+      //초기화 한 후
+      $(".modal").hide();
       $(`#modal_${i}`).show();
     });
-
     //닫게하는 로직
     $("body").on("click", function (event) {
       if (
         event.target.className === "close" ||
         event.target.id === "body_content" ||
-        event.target.className === "logo_box"
+        event.target.className === "logo_box" ||
+        event.target.id === "wrap"
       ) {
         $(`#modal_${i}`).hide();
       }
     });
   }
-  // 와라락 효과 (modal_2 열렸을때)
-
-  $(`#modal_${i}`).css("display", function () {
-    alert("d");
-  });
 });
