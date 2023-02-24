@@ -17,7 +17,7 @@ https://gyeongmilee.github.io/portfolio/
 ## 이력서 
 
 <p align="justify">
-<a href="./이경미_최종노션입사지원서(pdf).pdf" download="이경미_이력서">눌러보세요!</a>
+<a href="./이경미_노션_최종_수정.pdf" download="이경미_이력서">눌러보세요!</a>
 </p>
 
 [![notion]](https://harmless-patio-fe8.notion.site/3d400b24a82c4f428ca3aefad1844080)
