@@ -14,11 +14,15 @@ https://gyeongmilee.github.io/portfolio/
 
 <br>
 
-## 이력서 다운받기
+## 이력서 
 
 <p align="justify">
-<a href="./입사지원서_이경미(최종).pdf" download="이경미_이력서">눌러보세요!</a>
+<a href="./이경미_노션_최종_수정.pdf" download="이경미_이력서">눌러보세요!</a>
 </p>
+
+[![notion]](https://harmless-patio-fe8.notion.site/3d400b24a82c4f428ca3aefad1844080)
+(클릭시 노션 페이지로 이동)
+<br>
 
 <br>
 
@@ -39,3 +43,5 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 [js]: /images/stack/javascript.svg
 [html]: ./images/stack/html.svg
 [css]: ./images/stack/css.svg
+[notion]: ./images/stack/notion.svg
+
