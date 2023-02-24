@@ -20,7 +20,7 @@ https://gyeongmilee.github.io/portfolio/
 <a href="./이경미_최종노션입사지원서(pdf).pdf" download="이경미_이력서">눌러보세요!</a>
 </p>
 
-[![notion]](https://harmless-patio-fe8.notion.site/c515d40f28ba40b3b1ee3968c8ae4981)
+[![notion]](https://harmless-patio-fe8.notion.site/3d400b24a82c4f428ca3aefad1844080)
 (클릭시 노션 페이지로 이동)
 <br>
 
